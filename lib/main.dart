@@ -53,7 +53,7 @@ class MyApp extends StatelessWidget {
           ),
         ),
         body: Center(
-          child: Text('Hello'),
+          child: Text('Hola mundo movil'),
         ),
       ),
     );
