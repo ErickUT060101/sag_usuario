@@ -6,7 +6,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: ThemeData(
+        primarySwatch: Colors.blueGrey,
+      ),
       title: 'SAG',
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
           title: Text('Bienvenido a SAG'),
@@ -16,18 +20,33 @@ class MyApp extends StatelessWidget {
             padding: EdgeInsets.zero,
             children: [
               DrawerHeader(
-                decoration: BoxDecoration(color: Colors.blueAccent),
                 child: Column(
                   children: [
                     Expanded(
-                      child: Image.asset('logo.png'),
-                    )
+                      child: Image.asset('sag_logo2.png'),
+                    ),
+                    Text('¿En qué estación te encuentras?')
                   ],
                 ),
               ),
               ListTile(
-                leading: Icon(Icons.add_location_alt_outlined),
-                title: Text('Añadir mi ubicación'),
+                leading: Icon(Icons.commute),
+                title: Text('Estación 1'),
+                onTap: () {},
+              ),
+              ListTile(
+                leading: Icon(Icons.commute),
+                title: Text('Estación 2'),
+                onTap: () {},
+              ),
+              ListTile(
+                leading: Icon(Icons.commute),
+                title: Text('Estación 3'),
+                onTap: () {},
+              ),
+              ListTile(
+                leading: Icon(Icons.commute),
+                title: Text('Estación 4'),
                 onTap: () {},
               )
             ],
