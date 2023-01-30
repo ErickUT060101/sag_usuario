@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
                 child: Column(
                   children: [
                     Expanded(
-                      child: Image.asset('sag_logo2.png'),
+                      child: Image.asset('assets/sag_logo2.png'),
                     ),
                     Text('¿En qué estación te encuentras?')
                   ],
