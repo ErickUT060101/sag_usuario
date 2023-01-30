@@ -45,8 +45,8 @@ dev_dependencies:
     
 flutter_icons:
   android: 'launcher_icon'
-  image_path: "assets/a.png"
-  adaptive_icon_background: "assets/a.png"
+  image_path: "assets/sag_icon.png"
+  adaptive_icon_background: "assets/sag_icon.png"
 
 flutter_native_splash:
   image: assets/sag_logo2.png
